@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+	    <title>Портфолио</title>
+	    <meta charset="utf-8">
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <script src="swiper-5.3.6/package/js/swiper.min.js"></script>
+	    <script src="js/jquery-3.4.1.min.js"></script>
+	    <script src="js/jquery.maskedinput.js"></script>
+	    <script src="js/mask.js"></script>
+        <script src="js/slider.js" defer></script>
+        <script src="js/PopUp.js"></script>
+        <script src="js/burger.js"></script>
+    </head>
+    <body>
+        <header class="page-header">
+        	<div class="container page-header__container">
+                <div class="page-header__dropdown-wrapper">
+        		    <button class="button-dropdown button-dropdown_burger_small pointer"></button>
+                    <nav class="page-header__menu menu menu_mobile">
+                        <ul class="menu__list link-list_mobile">
+                            <li class="link-list__item_mobile"><a href="#services" class="menu__link_mobile">Услуги</a></li>
+                            <li class="link-list__item_mobile"><a href="#portfolio" class="menu__link_mobile">Портфолио</a></li>
+                            <li class="link-list__item_mobile"><a href="#price" class="menu__link_mobile">Стоимость</a></li>
+                        </ul>
+                    </nav>
+                    <button class="button-dropdown button-dropdown_burger_big pointer"></button>
+        		    <nav class="page-header__menu menu menu_laptop">
+        			    <ul class="menu__list link-list_laptop">
+                            <li class="link-list__item_laptop"><a href="#services" class="menu__link_laptop">Услуги</a></li>
+                            <li class="link-list__item_laptop"><a href="#portfolio" class="menu__link_laptop">Портфолио</a></li>
+                            <li class="link-list__item_laptop"><a href="#price" class="menu__link_laptop">Стоимость</a></li>
+                        </ul>
+                    </nav>
+                </div>        
+        		<nav class="page-header__menu menu menu_desktop">
+        			<ul class="menu__list link-list">
+        				<li class="link-list__item"><a href="#services" class="menu__link">Услуги</a></li>
+        				<li class="link-list__item"><a href="#portfolio" class="menu__link">Портфолио</a></li>
+        				<li class="link-list__item"><a href="#price" class="menu__link">Стоимость</a></li>
+        			</ul>
+        		</nav>
+                <div class="page-header__wrapper">
+        		    <a href="tel:+74999955577" class="phone-number">+7 (499) 995-55-77</a>
+        		    <button class="button-order pointer">Заказать звонок</button>
+                </div>   
+        		<button class="button-order button-order_icon_telephone pointer"></button>
+        	</div>
+        </header>
+        <main class="main">        	
+        	<article class="about-me container">
+        		<div class="about-me__about-me-wrapper about-me-wrapper">
+        	        <h1>Дмитрий Алексеев</h1>
+        	        <h2>Frontend-разработчик и веб-верстальщик</h2>
+        	        <button class="button pointer">Узнать больше</button>
+        	    </div>
+            </article>   
+            <article class="services container">
+            	<a name="services"></a>
+            	<h3>Что я делаю</h3>
+                <div class="services__list">
+                	<div class="services__block">
+                		<div class="services__block_background_layout"></div>
+                		<span class="services__description">Вёрстка лендинг-страниц и сайтов любой сложности</span>
+                	</div>
+                	<div class="services__block">
+                		<div class="services__block_background_adaptive-layout"></div>
+                		<span class="services__description">Адаптивная вёрстка под все браузеры и устройства</span>
+                	</div>
+                	<div class="services__block">
+                		<div class="services__block_background_programming"></div>
+                		<span class="services__description">Frontend-разработка и программирование</span>
+                	</div>
+                	<div class="services__block">
+                		<div class="services__block_background_correction"></div>
+                		<span class="services__description">Исправление и доработка существующей вёрстки</span>
+                	</div>
+                </div>
+                <button class="button pointer">Узнать стоимость</button>
+            </article>
+            <article class="portfolio">
+            	<a name="portfolio"></a>
+            	<div class="container container_position">
+            	    <h3>Примеры моих работ</h3>
+            	    <div class="slider">
+                        <ul class="slider__list">
+                            <li class="slider__item">
+                                <a href="#"><img src="img/Layer1.png" alt="Детская одежда"></a>
+                                <a href="#" class="slider__link">Сайт магазина детской одежды</a>
+                            </li>
+                            <li class="slider__item">
+                                <a href=""><img src="img/Layer2.png" alt="Сайт психолога"></a>
+                                <a href="#" class="slider__link">Сайт психолога Веры Антоновой</a>
+                            </li>
+                            <li class="slider__item">
+                                <a href=""><img src="img/Layer3.png" alt="Сайт магазина"></a>
+                                <a href="#" class="slider__link">Сайт магазина &laquo;Рыболов&raquo;</a>
+                            </li>
+                        </ul>
+
+                        <button class="slider__button slider__button_prev" aria-label="Предыдущий слайд"><img class="button-left slider__button_prev" alt="кнопка" src="img/arrow.png"></button>
+
+                        <button class="slider__button slider__button_next" aria-label="Следующий слайд"><img class="button-right slider__button_next" alt="кнопка" src="img/arrow.png"></button>
+
+                        <div
+                        class="slider__pagination paginator"
+                        aria-hidden="true"
+                        ></div>
+                    </div>                   
+                    <button class="button pointer">Заказать проект</button>
+                </div>
+            </article>
+            <article class="price">
+            	<a name="price"></a>
+            	<div class="container">
+            		<div class="price__text">
+            		    <span>Адаптивная вёрстка под все устройства и&nbsp;браузеры от&nbsp;1000 рублей всего за&nbsp;4&nbsp;часа.*</span>
+            		</div>
+            		<div class="price__text price__text_small">
+            			<span>*Срок и&nbsp;стоимость могут отличаться от&nbsp;заявленных и&nbsp;рассчитываются индивидуально, в&nbsp;зависимости от&nbsp;сложности задач.</span>
+            		</div>
+            	</div>
+            </article>
+        </main>
+        <footer class="footer">
+        	<div class="container container_footer">
+                <nav class="footer__menu menu menu_footer">
+        	        <ul class="menu-list link-list_footer">
+        		        <li class="link-list__item_footer"><a href="#services" class="menu__link_footer">Услуги</a></li>
+        			    <li class="link-list__item_footer"><a href="#portfolio" class="menu__link_footer">Портфолио</a></li>
+        			    <li class="link-list__item_footer"><a href="#price" class="menu__link_footer">Стоимость</a></li>
+        		    </ul>
+        	    </nav>
+        	    <div class="contacts">
+        		    <a href="tel:+74999955577" class="phone-number">+7(499)995-77-55</a>
+        		    <a href="mailto:dmitry@alekseev.com" class="mail">dmitry@alekseev.com</a>
+        	    </div>
+        	    <div class="links">
+        		    <button class="button-order button-order_footer pointer">Заказать звонок</button>
+        		    <address class="address">
+        			    <a href="https://vk.com/" target="_blank" class="vk"></a>
+        			    <a href="https://ru-ru.facebook.com/" target="_blank" class="facebook"></a>
+        			    <a href="https://twitter.com/" target="_blank" class="twitter"></a>
+        			    <a href="https://www.instagram.com/" target="_blank" class="instagram"></a>
+        		    </address>
+        	    </div>
+            </div>
+            <div class="copy">
+            	<small>&copy;Дмитрий Алексеев, 2016 - 2018</small>
+            </div>
+        </footer>
+        <div class="popup-container">
+        	<div class="popup">
+        		<button class="button-close pointer"></button>
+        		<form class="form" action="https://echo.htmlacademy.ru/" method="post">
+                    <h3>Пожалуйста введите свои данные для обратной связи</h3>
+    			    <input class="form__input" type="text" placeholder="Ваше имя" required name="Name">
+                    <input class="form__input form__input_disabled" type="email" placeholder="Ваш email" required name="Email">
+    			    <input class="form__input form__input_number" type="tel" autocomplete="off" required placeholder="Ваш телефон" name="Number">   		    	
+                    <button type="submit" class="button pointer">Отправить данные</button>
+     		    </form>
+        	</div>
+        </div>
+    </body>
+</html>
