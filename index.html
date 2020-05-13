@@ -5,13 +5,13 @@
 	    <meta charset="utf-8">
 	    <link rel="stylesheet" type="text/css" href="style.css">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <script src="swiper-5.3.6/package/js/swiper.min.js"></script>
-	    <script src="js/jquery-3.4.1.min.js"></script>
-	    <script src="js/jquery.maskedinput.js"></script>
-	    <script src="js/mask.js"></script>
-        <script src="js/slider.js" defer></script>
-        <script src="js/PopUp.js"></script>
-        <script src="js/burger.js"></script>
+	    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="manifest" href="img/site.webmanifest">
+        <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
     </head>
     <body>
         <header class="page-header">
@@ -57,7 +57,7 @@
         	    </div>
             </article>   
             <article class="services container">
-            	<a name="services"></a>
+            	<a id="services"></a>
             	<h3>Что я делаю</h3>
                 <div class="services__list">
                 	<div class="services__block">
@@ -80,7 +80,7 @@
                 <button class="button pointer">Узнать стоимость</button>
             </article>
             <article class="portfolio">
-            	<a name="portfolio"></a>
+            	<a id="portfolio"></a>
             	<div class="container container_position">
             	    <h3>Примеры моих работ</h3>
             	    <div class="slider">
@@ -112,7 +112,8 @@
                 </div>
             </article>
             <article class="price">
-            	<a name="price"></a>
+            	<h3 class="visually-hidden">Цены</h3>
+            	<a id="price"></a>
             	<div class="container">
             		<div class="price__text">
             		    <span>Адаптивная вёрстка под все устройства и&nbsp;браузеры от&nbsp;1000 рублей всего за&nbsp;4&nbsp;часа.*</span>
@@ -162,5 +163,14 @@
      		    </form>
         	</div>
         </div>
+
+
+        <script src="swiper-5.3.6/package/js/swiper.min.js"></script>
+	    <script src="js/jquery-3.4.1.min.js"></script>
+	    <script src="js/jquery.maskedinput.js"></script>
+	    <script src="js/mask.js"></script>
+        <script src="js/slider.js" defer></script>
+        <script src="js/PopUp.js"></script>
+        <script src="js/burger.js"></script>
     </body>
 </html>
