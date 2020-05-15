@@ -1018,7 +1018,7 @@ small {
 }
 
 .form h3 {
-	font-size: 40px;
+	font-size: 25px;
 }
 
 .form .button {
@@ -1062,10 +1062,6 @@ small {
 		margin: 0;
 		border: 0;
 		border-radius: 0;
-	}
-
-	.form h3 {
-		font-size: 30px;
 	}
 }
 
