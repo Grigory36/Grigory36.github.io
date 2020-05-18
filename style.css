@@ -402,7 +402,7 @@ a:hover {
 	max-width: 900px;
 }
 
-.button {
+.button, .button-submit {
 	font-size: 18px;
 	width: 271px;
 	min-height: 61px;
@@ -412,16 +412,16 @@ a:hover {
 	word-wrap: break-word;
 }
 
-.button:focus {
+.button:focus, .button-submit:focus {
 	outline: none;
     box-shadow: 0 0 0 3px lightskyblue;
 }
 
-.button:hover {
+.button:hover, .button-submit:hover {
 	background-color: #d44930;
 }
 
-.button:active {
+.button:active, .button-submit:active {
     background-color: white;
     color: #ff4e2e;
 }
@@ -620,7 +620,7 @@ a:hover {
 		font-size: 54px;
 	}
 
-	.button {
+	.button, .button-submit {
     	width: 321px;
     	height: 69px;
     }
@@ -692,7 +692,7 @@ a:hover {
 }
 
 @media (max-width: 550px) {
-    .button {
+    .button, .button-submit {
     	width: 100%;
     	font-size: 16px;
     }
@@ -1021,7 +1021,7 @@ small {
 	font-size: 25px;
 }
 
-.form .button {
+.form .button-submit {
 	width: 100%
 }
 

@@ -1,11 +1,13 @@
 $(function(){
     $('.button-order').click(function(){
-        $('.form__input_disabled').hide();    
+        $('.popup').children().eq(1).show();
+        $('.popup').children().last().hide();    
     	$('.popup-container').fadeIn(1000);
     });
 
     $('.button').click(function(){
-        $('.form__input_disabled').show();
+        $('.popup').children().last().show();
+        $('.popup').children().eq(1).hide(); 
         $('.popup-container').fadeIn(1000);
     });
 
