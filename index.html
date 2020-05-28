@@ -17,15 +17,7 @@
         <header class="page-header">
         	<div class="container page-header__container">
                 <div class="page-header__dropdown-wrapper">
-        		    <button class="button-dropdown button-dropdown_burger_small pointer"></button>
-                    <nav class="page-header__menu menu menu_mobile">
-                        <ul class="menu__list link-list_mobile">
-                            <li class="link-list__item_mobile"><a href="#services" class="menu__link_mobile">Услуги</a></li>
-                            <li class="link-list__item_mobile"><a href="#portfolio" class="menu__link_mobile">Портфолио</a></li>
-                            <li class="link-list__item_mobile"><a href="#price" class="menu__link_mobile">Стоимость</a></li>
-                        </ul>
-                    </nav>
-                    <button class="button-dropdown button-dropdown_burger_big pointer"></button>
+                    <button class="button-dropdown pointer"></button>
         		    <nav class="page-header__menu menu menu_laptop">
         			    <ul class="menu__list link-list_laptop">
                             <li class="link-list__item_laptop"><a href="#services" class="menu__link_laptop">Услуги</a></li>
@@ -152,22 +144,26 @@
             </div>
         </footer>
         <div class="popup-container">
-        	<div class="popup">
-        		<button class="button-close pointer"></button>
-        		<form class="form" action="https://echo.htmlacademy.ru/" method="post">
-                    <h3>Пожалуйста введите свои данные для обратной связи</h3>
-    			    <input class="form__input" type="text" placeholder="Ваше имя" required name="Name">
-    			    <input class="form__input form__input_number" type="tel" autocomplete="off" required placeholder="Ваш телефон" name="Number">   		    	
-                    <button type="submit" class="button-submit pointer">Отправить данные</button>
-     		    </form>
-     		    <form class="form" action="https://echo.htmlacademy.ru/" method="post">
-                    <h3>Пожалуйста введите свои данные для обратной связи</h3>
-    			    <input class="form__input" type="text" placeholder="Ваше имя" required name="Name">
-                    <input class="form__input form__input_disabled" type="email" placeholder="Ваш email" required name="Email">
-    			    <input class="form__input form__input_number" type="tel" autocomplete="off" required placeholder="Ваш телефон" name="Number">   		    	
-                    <button type="submit" class="button-submit pointer">Отправить данные</button>
-     		    </form>
-        	</div>
+			<div class="popup">
+				<button class="button-close pointer"></button>
+				<form class="form" action="https://echo.htmlacademy.ru/" method="post">
+					<h3>Пожалуйста введите свои данные для обратной связи</h3>
+					<input class="form__input" type="text" placeholder="Ваше имя" required name="Name">
+					<input class="form__input form__input_number" type="tel" autocomplete="off" required placeholder="Ваш телефон" name="Number">   		    	
+					<button type="submit" class="button-submit pointer">Отправить данные</button>
+				</form>
+				<form class="form" action="https://echo.htmlacademy.ru/" method="post">
+					<h3>Пожалуйста введите свои данные для обратной связи</h3>
+					<input class="form__input" type="text" placeholder="Ваше имя" required name="Name">
+					<input class="form__input form__input_disabled" type="email" placeholder="Ваш email" required name="Email">
+					<input class="form__input form__input_number" type="tel" autocomplete="off" required placeholder="Ваш телефон" name="Number">   		    	
+					<button type="submit" class="button-submit pointer">Отправить данные</button>
+				</form> 
+			</div>
+			<div class="notification-success">
+				<img class="jackdaw-img" src="img/succes.png" alt="Галка">
+				<h3>Ваши данные были успешно отправленны, скоро мы&nbsp;с&nbsp;вами свяжемся!</h3>
+			</div>	
         </div>
 
 
@@ -177,6 +173,7 @@
 	    <script src="js/mask.js"></script>
         <script src="js/slider.js" defer></script>
         <script src="js/PopUp.js"></script>
-        <script src="js/burger.js"></script>
+		<script src="js/burger.js"></script>
+		<script src="js/animated.js"></script>
     </body>
 </html>
