@@ -791,6 +791,7 @@ a:hover {
 
     .price__text_small {
         padding: 40px 0 50px;
+        font-size: 20px;
     }
 
     .paginator__item {
